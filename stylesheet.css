@@ -1,0 +1,231 @@
+*{
+   
+    box-sizing: border-box;
+
+}
+
+
+body{
+
+    margin : 0; 
+    padding: 0; 
+
+}
+
+
+
+.toolbox-cont{
+ 
+    height: 5rem;
+    background-color: rgb(90, 83, 83);
+    display: flex;
+    align-items: center;
+
+
+}
+
+.toolbox-cont > *{
+    margin-left: 4rem;
+}
+
+
+.toolbox-priority-cont{
+ 
+    height:3.5rem;
+     width: 18rem;
+     background-color: rgb(102, 98, 98);
+     display: flex;
+    
+     align-items: center;
+       justify-content: space-around;
+     gap: 1rem;
+
+
+
+
+}
+
+.action-btn-cont {
+
+   height: 3.5rem;
+   width: 8rem;
+   background-color: rgb(43, 41, 41); 
+   display: flex;
+    border-radius: 20%;
+
+
+ }
+
+
+.action-btn-cont > *{
+
+    display: flex;
+    width: 50%;
+    font-size: 3rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+   
+   
+
+
+ }
+
+
+.toolbox-priority-cont > *:hover{
+    background-color: rgb(33, 33, 34);
+}
+
+
+.color{
+ height: 1.5rem;
+ width: 3rem;
+
+}
+
+.lightpink{
+background-color: lightpink;
+}
+.lightgreen{
+    background-color: lightgreen;
+}
+.lightblue{
+
+    background-color: lightblue;
+}
+
+.black{
+    background-color: black;
+}
+
+
+
+.action-btn-cont
+:hover{
+    background-color: lightgreen;
+    border-radius: 20%;
+}
+
+.main-cont{
+
+ display: flex;
+flex-wrap: wrap;
+gap: 2rem;
+padding: 2rem;
+justify-content: center;
+
+}
+
+.ticket-cont{
+    height: 10rem;
+    width: 15rem;
+    background-color: lightcoral;
+    border-radius: 10%;
+    
+}
+
+
+.main-content > *{
+    margin-left: 10rem;
+}
+
+.ticket-color{
+  
+    height: 1.5rem;
+    background-color:lightcoral;
+    width: 100%;
+   
+  
+}
+
+.ticket-id{
+    background-color: rgb(89, 55, 122);
+    height: 1.5rem;
+   
+   
+
+    
+}
+
+
+
+
+.ticket-lock{
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    margin-top: 70px;
+    margin-right: 10px;
+
+
+}
+
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.modal-cont{
+
+ height:40vh;
+ 
+ display:flex;
+
+ justify-content: center;
+ position: absolute;
+ top: 25%;
+ left: 30%;
+
+
+
+}
+
+
+
+.textArea-cont{
+
+
+ resize: none;
+ outline: none;
+ width: 35vw;
+ height: 40vh;
+ font-size: 2rem;
+ border: none;
+ background-color: rgb(233, 226, 226);
+ font-size: 2rem;
+ padding: 2rem;
+
+
+
+
+}
+
+.priority-colors-container{
+
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(90, 83, 83);
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.priority-color{
+    height: 3rem;
+    width: 5rem;
+   
+
+}
+
+
+.active{
+
+    border : 5px solid lightsalmon;
+
+}
